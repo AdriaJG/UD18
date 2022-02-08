@@ -11,6 +11,8 @@ public class MainAPP {
 		experimento.crearDB();
 		experimento.crearTabla("tablatest", "ID INT PRIMARY KEY AUTO_INCREMENT, Nombre VARCHAR(50),Apellido VARCHAR(50)");
 		experimento.jInsercion();
+		
+		Connector.cerrarConexion();
 	}
 
 }

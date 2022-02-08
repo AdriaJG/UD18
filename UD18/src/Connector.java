@@ -108,7 +108,7 @@ public class Connector {
 		return nombreTablas.toArray(new String[0]);
 	}
 	
-	public void cerrarCinexion() throws SQLException {
+	public static void cerrarConexion() throws SQLException {
 		conexion.close();
 	}
 	
